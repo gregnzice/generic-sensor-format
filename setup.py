@@ -15,9 +15,9 @@ def GetVersion():
 setup(name='gsf',
       version=GetVersion(),
       description='Generic Sensor Format',
-      author='Kurt Schwehr',
-      author_email='schwehr@google.com',
-      url='https://github.com/schwehr/generic_sensor_format',
+      authors='Kurt Schwehr and Greg Leonard',
+      author_emails='schwehr@google.com and greg.h.leonard@gmail.com',
+      url='https://github.com/gregnzice/generic-sensor-format',
       license='Apache 2.0',
       packages=find_packages(),
       classifiers=[
